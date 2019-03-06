@@ -23,7 +23,7 @@ class AddOption extends React.Component {
         }
         <form onSubmit={this.handeAddOption}>
           <input type="text" name="option" autoComplete="off" />
-          <button>Add Option</button>
+          <button className="button">Add Option</button>
         </form>
       </div>
     )
